@@ -1,6 +1,6 @@
 // let a = "iamastring";
 // let s = a.split("");
-//  console.log(s);
+// console.log(s);
 // let b = [];
 // let count;
 // for (let i = 0; i < a.length; i++) {
@@ -18,15 +18,23 @@
 //     }
 //   }
 // }
-// //console.log(count);
+// console.log(b);
 
-//let arr = ["aaaa", "baaasd", "cc","iadadadwadaw"];
+// console.log(count);
+
+
+
+ let arr = ["aaaa", "baaasd", "cc"];
 // // for (let i = 0; i < arr.length; i++) {
 // //   if (arr[i] === "" || arr[i] === " ") {
 // //     arr.splice(i, 1);
 // //   }
 // // }
 // // console.log(arr);
+
+
+
+
 // let res=arr.filter(ele=>{
 //     //if(ele!=='' || ele!==" " )
 //     return ele!=='' && ele!==' '
@@ -34,15 +42,19 @@
 // console.log(arr)
 // console.log(res)
 
-// let minLen=arr[1];
+
+
+
+// let minLen=arr[0];
 // for (let i = 1; i < arr.length; i++){
 //     if (minLen.length>arr[i].length){
 //         minLen=arr[i]
+        
 //     }
-
 // }
-
 // console.log(minLen)
+
+
 
 // let a = [1, 2, 5, 2, 3, 5, 3, 3, 5, 4, 5, 6, 5];
 // let maxcount = 0;
@@ -64,6 +76,9 @@
 
 // console.log(`freq is ${maxcount} of element ${maxele}`);
 
+
+
+
 // let a = 'arrays'
 // let s=a.split('')
 // console.log(s)
@@ -82,6 +97,10 @@
 // }
 
 // console.log(b)
+
+
+
+
 
 // let a = [1, 2, 3, 4, 4, 5, 6,3,3];
 // let count;
@@ -102,21 +121,24 @@
 
 // console.log(b)
 
+
+
+
 // ARRAYS 6TH QUE
 
-let a = [1, 2, 3, 4],
-  b = [3, 4, 5, 6],
-  c = [];
+// let a = [1, 2, 3, 4],
+//   b = [3, 4, 5, 6],
+//   c = [];
 
-for (let i = 0; i < a.length; i++) {
-  let j;
-  for (j = 0; j < b.length; j++) {
-    if (a[i] === b[j]) {
-      break;
-    }
-  }
-  if (i == a.length) {
-    console.log(b[j]);
-  }
-}
+// for (let i = 0; i < a.length; i++) {
+//   let j;
+//   for (j = 0; j < b.length; j++) {
+//     if (a[i] === b[j]) {
+//       break;
+//     }
+//   }
+//   if (i == a.length) {
+//     console.log(b[j]);
+//   }
+// }
 //console.log(c);
